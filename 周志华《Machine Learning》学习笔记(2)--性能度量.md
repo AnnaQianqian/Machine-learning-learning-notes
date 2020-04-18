@@ -97,6 +97,7 @@ P和R指标有时会出现矛盾的情况，这样就需要综合考虑他们，
 ![8.png](https://i.loli.net/2018/10/17/5bc71daf75407.png)
 
 特别地，当β=1时，也就是常见的F1度量，是P和R的调和平均，当F1较高时，模型的性能越好。
+当β>1时，查全率 sensitivity (recall) 重要，当β<1时，查准率 precision 重要
 
 ![9.png](https://i.loli.net/2018/10/17/5bc71daf20885.png)
 
